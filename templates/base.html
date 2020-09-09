@@ -19,6 +19,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
 	{% endblock %}
 
 	{% block extra_css %}
@@ -45,7 +48,7 @@
 
 <body>
 	<header class="container-fluid fixed-top">
-        <div class="row">
+        <div class="row bg-white pt-lg-2 d-none d-lg-flex" id="topnav">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0"><strong>Boutique</strong> Ado</h2>
