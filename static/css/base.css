@@ -11,6 +11,10 @@ body {
   font-family: "Lato";
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 /* from Bulma */
 
 .icon {
@@ -56,6 +60,10 @@ body {
 
 .border-black {
   border: 1px solid #000 !important;
+}
+
+.bg-black {
+    background: #000 !important;
 }
 
 /*------------------------------------- Media Queries*/
