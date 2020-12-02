@@ -19,9 +19,3 @@ item.has_sizes = True
 item.save()
 
 exit()
-
-python3 manage.py createsuperuser
-daniel
-rnemo@hotmail.co.uk
-Fr@nkenste1n
-Fr@nkenste1n
